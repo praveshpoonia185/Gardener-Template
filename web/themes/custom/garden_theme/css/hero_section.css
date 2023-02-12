@@ -1,0 +1,96 @@
+.herosection {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+}
+
+.herosection__image {
+    max-width: 282px;
+}
+
+.herosection__image img {
+    width: 100%;
+    height: 564px;
+    object-fit: cover;
+}
+
+.herosection__content {
+    max-width: 612px;
+}
+
+.number h1 {
+    color: #348E38;
+    font-size: 5rem;
+    margin: 0;
+}
+
+.field--name-field-paragraph {
+    color: #348E38;
+    margin-bottom: 1.5rem;
+    margin: 0;
+}
+
+.home__garden h1 {
+    font-size: 3rem;
+    color: #000;
+    margin: 0;
+    margin-bottom: 1.5rem;
+    font-weight: 800;
+}
+
+.field--name-field-paragraph-two {
+    color: #525368;
+    margin: 0;
+}
+
+.award__winning {
+    max-width: 238px;
+    border-left: 1px solid #dee2e6;
+    padding-left: 1.5rem;
+}
+
+.award__winning h4 {
+    color: #0F4229;
+    margin: 0;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+
+.field--name-field-paragraph-three {
+    color: #525368;
+    margin: 0;
+    margin-bottom: 1.5rem;
+}
+
+.dedicated_team {
+    max-width: 238px;
+    border-left: 1px solid #dee2e6;
+    padding-left: 1.5rem;
+}
+
+.dedicated_team h4 {
+    color: #0F4229;
+    margin: 0;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.field--name-field-paragraph-four {
+    color: #525368;
+    margin: 0;
+    margin-bottom: 1.5rem;
+}
+
+.home__garden a {
+  text-decoration: none;
+  background-color: #348E38;
+  border-color: #348E38;
+  color: #fff !important;
+  padding: 16px 0px;
+  max-width: 110px;
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+}

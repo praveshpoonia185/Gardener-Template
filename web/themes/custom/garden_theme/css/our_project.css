@@ -1,0 +1,233 @@
+.our-project {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.our-project__heading {
+    max-width: 500px;
+    margin: auto;
+}
+
+.field--name-field-project-heading {
+    color: #348E38;
+    margin: 0;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.our-project__heading h1 {
+    margin: 0;
+    margin-bottom: 3rem;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.our-project__grid {
+    max-width: 1320px;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.our-project__grid .card-section {
+    width: 407px;
+    height: 407px;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.card-section .card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+}
+
+.card-section__content {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.card-section__content h4 {
+    margin: 0;
+    color: #fff;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.card-icons {
+    display: flex;
+    gap: 8px;
+}
+
+.eye_one {
+    color: #f00;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #e8f5e9;
+}
+
+.eye_one:hover {
+    color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #348E38;
+    cursor: pointer;
+}
+
+.card-section__wrapperone {
+    position: absolute;
+    top: 0;
+    left: -50%;
+    height: 100%;
+    width: 49.5%;
+    background: rgba(15, 66, 41, .6);
+    transition: all 0.5s ease-in-out;
+}
+
+.card-section__wrappertwo {
+    position: absolute;
+    top: 0;
+    right: -50%;
+    height: 100%;
+    width: 49.5%;
+    background: rgba(15, 66, 41, .6);
+    transition: all 0.5s ease-in-out;
+}
+
+.card-section:hover .card-section__content {
+    opacity: 1;
+}
+
+.card-section:hover .card-section__wrapperone {
+    left: 0;
+}
+
+.card-section:hover .card-section__wrappertwo {
+    right: 0;
+}
+
+.field--name-field-project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+
+
+/* Our Team CSS */
+
+.our-team {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.our-team__heading {
+    max-width: 500px;
+    margin: auto;
+}
+
+.field--name-field-team-heading {
+    color: #348E38;
+    margin: 0;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.our-team__heading h1 {
+    margin: 0;
+    margin-bottom: 3rem;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.our-team__grid {
+    margin-top: 2rem;
+    max-width: 1320px;
+    margin: auto;
+}
+
+.team-grid__card {
+    width: 407px;
+    height: 407px;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.team-grid__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.team-grid__content {
+    position: absolute;
+    background: #FFFFFF;
+    width: 330px;
+    padding-left: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    bottom: 45px;
+    left: -356px;
+    transition: all 0.5s ease-out;
+}
+
+.team-grid__content h4 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.field--name-field-subheading {
+    margin: 0;
+    margin-bottom: 1rem;
+    color: #348E38;
+}
+
+.team-grid__icons .fontawesome-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.service_icons {
+    background-color: #e8f5e9;
+    color: #f00;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.service_icons:hover {
+    background-color: #348E38;
+    color: #fff;
+}
+
+.team-grid__card:hover .team-grid__content {
+    left: 0;
+}
+
+.field--name-field-team-grid {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}

@@ -1,0 +1,60 @@
+.garden-form {
+    max-width: 100vw;
+    height: 600px;
+    position: relative;
+}
+
+.garden-form__image img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.garden-form__content {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.garden-form input {
+    max-width: 316px;
+    padding: 16px;
+    background-color: #E8F5E9;
+    border-radius: 5px;
+    border-color: unset;
+    border-style: unset;
+}
+
+.garden-form textarea {
+    padding: 16px;
+    background-color: #E8F5E9;
+    border-radius: 5px;
+    border-color: unset;
+    border-style: unset;
+}
+
+.garden-form input[type='submit'] {
+    background-color: #f00;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.field--name-field-garden-form {
+    background-color: #fff;
+    padding: 3rem;
+}
+
+.field--name-field-garden-form .field__label {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+}

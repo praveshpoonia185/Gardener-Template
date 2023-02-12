@@ -1,0 +1,3 @@
+counter_on_scroll:
+  js:
+    js/counter_on_scroll.js: {}

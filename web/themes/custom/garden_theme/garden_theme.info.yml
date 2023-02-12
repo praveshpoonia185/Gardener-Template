@@ -1,0 +1,17 @@
+name: Gardener Theme
+description: Our Super Cool Garden Theme
+type: theme
+core_version_requirement: ^8 || ^9
+base theme: classy
+screenshot: gardener__screenshot.png
+
+libraries:
+  - garden_theme/gardener-style
+
+regions:
+  header: 'Header Navbar'
+  banner: 'Banner'
+  content: 'Content'
+  highlighted: 'Highlighted'
+  footer: 'Footer'
+  footer_second: 'Footer Second'

@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "elm": "^0.19.1-5"
+  },
+  "dependencies": {
+    "slick-carousel": "^1.8.1"
+  }
+}

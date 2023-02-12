@@ -1,0 +1,27 @@
+<?php
+
+/**
+ * @file
+ * Conatins hover_effects.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function counter_on_scroll_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'help.page.counter_on_scroll':
+      return t('counter_on_scroll.');
+  }
+}
+
+/**
+ * Implements hook_page_attachments().
+ */
+function counter_on_scroll_page_attachments(&$page) {
+  if (!\Drupal::service('router.admin_context')->isAdminRoute()) {
+    $page['#attached']['library'][] = 'counter_on_scroll/counter_on_scroll';
+  }
+}

@@ -1,0 +1,85 @@
+.choosing-us {
+    margin-top: 4rem;
+}
+
+.choosing-us__content {
+    display: flex;
+    gap: 3rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.choosing-us__left {
+    max-width: 612px;
+}
+
+.field--name-field-heading-one {
+    font-size: 1.25rem;
+    color: #348E38;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+.choosing-us__left h1 {
+    margin: 0;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    font-weight: 800;
+}
+
+.field--name-field-choosing-paragraph {
+    margin: 0;
+    margin-bottom: 1.5rem;
+    color: #525368;
+}
+
+.choosing-us__left a {
+    text-decoration: none;
+    display: block;
+    background-color: #348E38;
+    color: #e8f5e9;
+    padding: 16px 0;
+    max-width: 170px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.choosing-us__right {
+width: 612px;
+    height: 550px;
+    display: flex;
+}
+
+
+
+.choosing-us__card {
+    padding: 3rem 0;
+    box-shadow: 0 0 45px rgb(0 0 0 / 8%);
+    width: 294px;
+    text-align: center;
+}
+
+
+.check_class {
+    padding: 14px;
+    background-color: #e8f5e9;
+    color: #f00;
+    border-radius: 50%;
+}
+
+.choosing-us__card h4 {
+    margin: 0;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.field--name-field-chhosing-card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
